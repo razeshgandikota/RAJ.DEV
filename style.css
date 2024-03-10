@@ -1,0 +1,39 @@
+.png{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:200px
+    
+}
+.ok{
+    display: flex;
+    justify-content: end;
+}
+.hrr{
+    background-size: cover;
+}
+
+#all{       
+ transition-property: all;
+ transition-duration: 1s;
+}
+#all:hover{
+    color:green !important   ;
+    background-color:whitesmoke !important;
+    transform: scale(1.02);
+    
+    
+    
+   
+}
+#aaa{
+    transition-property: all;
+    transition-duration: 1s;
+}
+#aaa:hover{
+    color: green !important;
+    background-color: black !important;
+    transform: scale(0.9);
+    box-shadow: 2px 2px 2px,black;
+}
